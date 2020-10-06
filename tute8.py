@@ -1,0 +1,11 @@
+mystr="satish is a good boy and he is living in parsia village"
+print(len(mystr))
+print(mystr[::])
+print(mystr.isalnum())
+print(mystr.isalpha())
+print(mystr.isascii())
+print(mystr.endswith("villagem"))
+print(mystr.count("h"))
+print(mystr.capitalize())
+print(mystr.upper())
+print(mystr.replace("is","are"))

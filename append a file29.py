@@ -1,0 +1,7 @@
+# f=open("satish.txt", "a")
+# f.write("satish is a very good boy!!!!!!!!!!!!!!!!!\n")
+# f.close()
+f=open("satish.txt", "r+")
+#f.write("satish is a very good boy!!!!!!!!!!!!!!!!!\n")
+print(f.read())
+f.write("thanks so much!!!!!\n")
